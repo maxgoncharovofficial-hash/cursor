@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Трекер курса Cursor AI v1.0.0</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Трекер курса Cursor AI</h1>
+            <div class="version">v1.0.0</div>
+        </header>
+
+        <div class="progress-section">
+            <div class="progress-info">
+                <span class="progress-text">Прогресс курса</span>
+                <span class="progress-percentage">0%</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+            <div class="stats">
+                <div class="stat">
+                    <span class="stat-value completed-count">0</span>
+                    <span class="stat-label">пройдено</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value total-count">55</span>
+                    <span class="stat-label">всего уроков</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value remaining-count">55</span>
+                    <span class="stat-label">осталось</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="actions">
+            <button class="btn btn-reset" onclick="resetProgress()">Сбросить прогресс</button>
+            <button class="btn btn-export" onclick="exportProgress()">Экспорт данных</button>
+        </div>
+
+        <div class="sections" id="sections">
+            <!-- Секции будут добавлены через JavaScript -->
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
