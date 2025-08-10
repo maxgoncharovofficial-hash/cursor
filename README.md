@@ -13,8 +13,8 @@
 
 ## Версия
 
-v1.0.0
+v1.0.1
 
 ## Деплой
 
-Приложение доступно по адресу: https://[ваш-username].github.io/cursor-course-tracker/
+Приложение доступно по адресу: https://maxgoncharovofficial-hash.github.io/cursor/
